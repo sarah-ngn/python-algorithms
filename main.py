@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from arrays_and_strings.check_permutation import check_permutation
 from arrays_and_strings.is_unique import is_unique
+from arrays_and_strings.palindrome_permutation import palindrome_permutation
 
 
 def print_hi(name):
@@ -13,7 +14,7 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(check_permutation("azertyaa","azerdddd"))
+    print(palindrome_permutation("taco cat"))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
